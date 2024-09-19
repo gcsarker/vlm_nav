@@ -1,0 +1,7 @@
+numpy==1.26.4
+keyboard==0.13.5
+pandas==2.2.1
+opencv-python==4.9.0.80
+airsim==1.8.1
+msgpack-rpc-python
+google-generativeai
