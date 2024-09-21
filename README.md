@@ -25,26 +25,25 @@ Our system works with three discrete action space.
 ### Prepraration
 
 1. **Build AirSim**: Follow the steps mentioned in <u>[AirSim Build Guide](https://microsoft.github.io/AirSim/build_windows/)</u>. Then prepare your custom Unreal Engine environment with Airsim Plugin. Refer to the tutorial for <u>[creating and setting up custom environment](https://microsoft.github.io/AirSim/unreal_custenv/)</u>.
-2. **Install Pytorch**: Please follow the steps in the pytorch install guide on their <u>[official website](https://pytorch.org/get-started/locally/)</u>.] or use the following pip command. 
+
+2. **Setup AirSim Settings**: Copy the settings.json file from the AirSim_Settings folder to "Documents/AirSim/" in your local machine.
+
+3. **Install Pytorch**: Please follow the steps in the pytorch install guide on their <u>[official website](https://pytorch.org/get-started/locally/)</u>.] or use the following pip command. 
 
 ```bash
 pip3 install torch torchvision --index-url https://download.pytorch.org/whl/cu118
 ```
-<!-- 
-3. **Install VLM-Nav**:
-```bash
-pip install git+https://github.com/gcsarker/vlm_nav
-``` -->
-3. **Install VLM-Nav**
+
+4. **Install VLM-Nav**
 ```bash
 git clone https://github.com/gcsarker/vlm_nav
 cd vlm_nav
 pip install -r requirements.txt
 ```
 
-4. **Create API Key**: Create a  Google Developer API from <u>[Goole AI Studio](https://aistudio.google.com/)</u> and copy paste the API key to the config.ini file. Here are the details regarding different settings in the config file.
+5. **Create API Key**: Create a  Google Developer API from <u>[Goole AI Studio](https://aistudio.google.com/)</u> and copy paste the API key to the config.ini file. Here are the details regarding different settings in the config file.
 
-5. **Modify Config File**:
+6. **Modify Config File**:
 ```
 # Place your API Key Here
 API_KEY = Enter_YOUR_API_KEY_HERE 

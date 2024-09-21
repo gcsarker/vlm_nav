@@ -1,0 +1,38 @@
+{
+  "SeeDocsAt": "https://github.com/Microsoft/AirSim/blob/main/docs/settings.md",
+  "SettingsVersion": 1.2,
+  "SimMode": "Multirotor",
+  "ViewMode": "SpringArmChase",
+  "CameraDirector": {
+    "FollowDistance": -3,
+    "X": -2, "Y": 0, "Z": -2,
+    "Pitch": 0, "Roll": 0, "Yaw": 0
+  },
+  "Vehicles": {
+    "SimpleFlight": {
+      "VehicleType": "SimpleFlight",
+      "KinematicsOnly": true,
+      "Sensors": {
+            "left_distance_sensor":{
+                "SensorType": 5,
+                "Enabled" : true,
+                "MinDistance": 0.2,
+                "MaxDistance": 40,
+                "X": 0, "Y": 0, "Z": -1,
+                "Yaw": -90, "Pitch": 0, "Roll": 0,
+                "DrawDebugPoints": false
+            },
+            "right_distance_sensor": {
+                "SensorType": 5,
+                "Enabled" : true,
+                "MinDistance": 0.2,
+                "MaxDistance": 40,
+                "X": 0, "Y": 0, "Z": -1,
+                "Yaw": 90, "Pitch": 0, "Roll": 0,
+                "DrawDebugPoints": false
+            }
+        }
+    }
+  }
+
+}
