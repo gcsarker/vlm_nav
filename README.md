@@ -113,8 +113,18 @@ learner.learn()
 If you find this project useful, please consider citing:
 
 ```bibtex
-@article{vlm_nav,
-
+@article{10.1371/journal.pone.0345778,
+    doi = {10.1371/journal.pone.0345778},
+    author = {Sarker, Gobinda Chandra AND Azad, AKM AND Rahman, Sejuti AND Hasan, Md Mehedi},
+    journal = {PLOS ONE},
+    publisher = {Public Library of Science},
+    title = {VLM-Nav: Mapless UAV navigation using monocular vision driven by vision-language models},
+    year = {2026},
+    month = {04},
+    volume = {21},
+    url = {https://doi.org/10.1371/journal.pone.0345778},
+    pages = {1-26},
+    number = {4},
 }
 
 ```
